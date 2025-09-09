@@ -1,5 +1,5 @@
 FROM eclipse-temurin:21-jdk
-ARG JAR_FILE=traget/*.jar
+ARG JAR_FILE=target/*.jar
 WORKDIR /app
 COPY upload /app/upload
 COPY ${JAR_FILE} /app.jar
